@@ -1,0 +1,46 @@
+body {
+	background-image: url("misty_forest2.jpg");
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif
+	color: white;
+}
+
+.navbar {
+	color: white;
+	padding: 0;
+}
+
+.inner {
+   
+}
+
+h2 {
+	color: white;
+	padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+	padding-top: 23px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
