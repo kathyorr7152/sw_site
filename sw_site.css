@@ -2,12 +2,25 @@ body {
 	background-image: url("misty_forest2.jpg"); 
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     border: none;
-    color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     display: block;
+}
+
+.inner {
+    padding-top: 20px;
+    background-color: #404040;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+.text {
+    padding-bottom: 40px;
 }
 
 .navbar {
@@ -59,6 +72,8 @@ li a:hover, .dropdown:hover .dropbtn {
 
 li.dropdown {
     display: inline-block;
+    position: absolute;
+    z-index: 16777271;
 }
 
 .dropdown-content {
@@ -67,6 +82,7 @@ li.dropdown {
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 16777271;
 }
 
 .dropdown-content a {
@@ -88,6 +104,7 @@ li.dropdown {
 
 /* CSS for the Learn page */
 .card {
+    z-index: -1;
     padding-top: 20px;
     background-color: #404040;
     border-top-width: 0;
